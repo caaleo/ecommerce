@@ -9,12 +9,12 @@ class Model {
     public function __call($name, $args){
 
         $method = substr($name, 0, 3);
-        $fieldName = substr($name,3 ,strlen($name));
+        $fieldName = substr($name, 3,strlen($name));
 
         switch ($method){
 
             case "get":
-                $this->values[$fieldName];
+                return $this->values[$fieldName];
                 break;
 
             case "set":

@@ -4,9 +4,8 @@
     <list default="true" id="1c7251c1-7d6e-4bb4-8c90-9185bf5f501d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" afterPath="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views-cache/header.b18aae8b7bfe6bd31c1fe7cf29d9e8b3.rtpl.php" afterPath="$PROJECT_DIR$/views-cache/header.b18aae8b7bfe6bd31c1fe7cf29d9e8b3.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/header.html" afterPath="$PROJECT_DIR$/views/admin/header.html" />
     </list>
     <ignored path="ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state relative-caret-position="265">
+              <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
               <folding>
                 <element signature="e#62#77#0#PHP" expanded="true" />
               </folding>
@@ -39,16 +38,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Slim.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="411" column="20" selection-start-line="411" selection-start-column="20" selection-end-line="411" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+            <state relative-caret-position="493">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
               <folding>
                 <element signature="e#31#49#0#PHP" expanded="true" />
-                <marker date="1515081666815" expanded="true" signature="240:286" ph="SELECT * FRO... tb_users" />
-                <marker date="1515081666815" expanded="true" signature="1342:1427" ph="SELECT * FRO... tb_users" />
+                <marker date="1515089750801" expanded="true" signature="240:286" ph="SELECT * FRO... tb_users" />
+                <marker date="1515089750801" expanded="true" signature="1338:1423" ph="SELECT * FRO... tb_users" />
+                <marker date="1515089750801" expanded="true" signature="2162:2251" ph="SELECT * FRO... tb_users" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/DB/Sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="809">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users-update.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/admin/users-update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +106,8 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -103,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/DB/Sql.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -127,12 +147,13 @@
         <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/PageAdmin.php" />
         <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Page.php" />
         <option value="$PROJECT_DIR$/views/admin/login.html" />
-        <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" />
         <option value="$USER_HOME$/Downloads/Hcode/Templates/users.html" />
         <option value="$PROJECT_DIR$/views/admin/header.html" />
         <option value="$PROJECT_DIR$/views/admin/users.html" />
-        <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/DB/Sql.php" />
+        <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php" />
+        <option value="$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php" />
       </list>
     </option>
   </component>
@@ -179,7 +200,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/xampp/htdocs/gcred" />
-    <property name="SearchEverywhereHistoryKey" value="page&#9;FILE&#9;file://C:/ecommerce/vendor/hcodebr/php-classes/src/PageAdmin.php&#10;User&#9;FILE&#9;file://C:/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php" />
+    <property name="SearchEverywhereHistoryKey" value="user-u&#9;FILE&#9;file://C:/ecommerce/views/admin/users-update.html&#10;page&#9;FILE&#9;file://C:/ecommerce/vendor/hcodebr/php-classes/src/PageAdmin.php&#10;User&#9;FILE&#9;file://C:/ecommerce/vendor/hcodebr/php-classes/src/Model/User.php" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -244,12 +265,12 @@
       <updated>1514910172740</updated>
       <workItem from="1514910173946" duration="10122000" />
       <workItem from="1514973801919" duration="18085000" />
-      <workItem from="1515060195068" duration="16582000" />
+      <workItem from="1515060195068" duration="22363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44789000" />
+    <option name="totallyTimeSpent" value="50570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1614" height="877" extended-state="0" />
@@ -333,8 +354,9 @@
           <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
           <folding>
             <element signature="e#31#49#0#PHP" expanded="true" />
-            <marker date="1515081666815" expanded="true" signature="240:286" ph="SELECT * FRO... tb_users" />
-            <marker date="1515081666815" expanded="true" signature="1342:1427" ph="SELECT * FRO... tb_users" />
+            <marker date="1515089750801" expanded="true" signature="240:286" ph="SELECT * FRO... tb_users" />
+            <marker date="1515089750801" expanded="true" signature="1338:1423" ph="SELECT * FRO... tb_users" />
+            <marker date="1515089750801" expanded="true" signature="2162:2251" ph="SELECT * FRO... tb_users" />
           </folding>
         </state>
       </provider>
@@ -473,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="423" column="20" selection-start-line="423" selection-start-column="20" selection-end-line="423" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -513,41 +527,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php">
+    <entry file="file://$PROJECT_DIR$/views/admin/users-update.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/slim/slim/Slim/Slim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="411" column="20" selection-start-line="411" selection-start-column="20" selection-end-line="411" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/DB/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="493">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
           <folding>
             <element signature="e#31#49#0#PHP" expanded="true" />
-            <marker date="1515081666815" expanded="true" signature="240:286" ph="SELECT * FRO... tb_users" />
-            <marker date="1515081666815" expanded="true" signature="1342:1427" ph="SELECT * FRO... tb_users" />
+            <marker date="1515089750801" expanded="true" signature="240:286" ph="SELECT * FRO... tb_users" />
+            <marker date="1515089750801" expanded="true" signature="1338:1423" ph="SELECT * FRO... tb_users" />
+            <marker date="1515089750801" expanded="true" signature="2162:2251" ph="SELECT * FRO... tb_users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="265">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
           <folding>
             <element signature="e#62#77#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/hcodebr/php-classes/src/DB/Sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
